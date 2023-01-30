@@ -1,0 +1,59 @@
+//My program contain two classes one for a Job and one for the Resume itself, as follows:
+public class Job
+{
+        // Keeps track of the company, job title, start year, and end year.
+        public string _JobTitle = "Software Engineer (Microsoft)";
+        public string _StartYear = "2019"; 
+        public string _EndYear = "2022";
+
+        // A special method, called a constructor that is invoked using the  
+        // new keyword followed by the class name and parentheses.
+        public Job()
+        {
+        }
+
+        // A method that displays the person's full name as used in eastern 
+        // countries or <family name, given name>.
+        public void ShowEasternName()
+        {
+            Console.WriteLine($"{_JobTitle}, {_StartYear}, {_EndYear}");
+        }
+
+        // A method that displays the Job's full information such as name, start and end year as used in western 
+        // countries or <given name family name>.
+        public void ShowWesternName()
+        {
+            Console.WriteLine($"{_StartYear}, {_EndYear} {_JobTitle}");
+        }
+}
+
+
+public class Resume
+{
+        // Keeps track of the person's name and a list of their jobs.
+        public string _givenName = "";
+        public string _familyName = ""; 
+        public string _JobTitle ="";
+        public string _StartYear = "2019"; 
+        public string _EndYear = "2022";
+
+        // A special method, called a constructor that is invoked using the  
+        // new keyword followed by the class name and parentheses.
+        public Resume()
+        {
+        }
+
+        // A method that displays the person's full name as used in eastern 
+        // countries or <family name, given name>.
+        public void ShowEasternName()
+        {
+            Console.WriteLine($"{_familyName}, {_givenName}");
+        }
+
+        // A method that displays the person's full name as used in western 
+        // countries or <given name family name>.
+        public void ShowWesternName()
+        {
+            Console.WriteLine($"{_givenName} {_familyName}");
+        }
+}
