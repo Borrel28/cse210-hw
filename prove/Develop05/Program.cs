@@ -7,7 +7,7 @@ class program
         AllPoints    allPoint = new AllPoints();
         int        userMainMenuSelection = 0;
 
-        while (userMainMenuSelection !=10)
+        while (userMainMenuSelection !=6)
         {
             Menu menu = new Menu();
             menu.DisplayPoints(allPoints.getTotalPoints());
