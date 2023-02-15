@@ -1,0 +1,125 @@
+public class Person
+{
+    // The C# convention is to start member variables with an underscore _
+    public string _givenName = "";
+    public string _familyName = "";
+
+    // A special method, called a constructor that is invoked using the  
+    // new keyword followed by the class name and parentheses.
+    public Person()
+    {
+    }
+
+// A method that displays the person's full name as used in eastern 
+        // countries or <family name, given name>.
+    public void ShowEasternName()
+    {
+        Console.WriteLine($"{_familyName}, {_givenName}");
+    }
+
+// A method that displays the person's full name as used in western 
+    // countries or <given name family name>.
+    public void ShowWesternName()
+    {
+            Console.WriteLine($"{_givenName} {_familyName}");
+    }
+
+
+    public class models
+    {
+
+
+
+    class Journal
+        {
+
+    
+        // Keeps track of the date, names and other information.
+            journal.Display();
+            journal ._FullDate = "";
+            journal ._givenName = "";
+            journal ._familyName = ""; 
+            journal ._Title = "";
+            journal ._EntryText = ""; 
+            journal ._Note = "";
+            journal ._Places = "";
+
+            _EntryText.Display();
+            journal ._SubTitle = "";
+            journal ._ExperienceText = "";
+            journal ._Personnage = ""; 
+            journal ._Action = "";
+            journal ._Conclusion = ""; 
+            journal ._FullDate = "";
+
+        // A method that displays the journal's information.
+        DisplayJobDetails()
+            {
+                Console.WriteLine($"{_FullDate}, {_Places}, {_StartYear}, {_EndYear}");
+            }
+            {
+                Console.WriteLine($"{_givenName}, {_familyName}, {_JobTitle}");
+            }
+            {
+                Console.WriteLine($", {_EntryText}, {_Note}");
+            }
+            {
+            Console.WriteLine($" {_Subtitle}, {_ExperienceText}, {_personnage}, {_Action}, {_Conclusion}, {_FullDate}");
+            }
+
+        }
+
+
+    class models
+        {
+            static void main(string[]args)
+            {
+                Console.write("What was the best part of my day? :")
+            }
+
+            {
+                Console.write("How did I see the hand of the Lord in my life today? :")
+            }
+            {
+                Console.write("What was the strongest emotion I felt today? :")
+            }
+            {
+                Console.write("If I had one thing I could do over today, what would it be? :")
+            }
+
+
+        }
+
+
+    }
+
+}
+
+
+// Vertical and horizontal whitespace (blank lines and indentation) is correct throughout the program.
+// Classes and methods use TitleCase. Attributes begin with an underscore and use _camelCase.//
+// The program exceeds the core requirements as explained in comments in the Program.cs
+
+// This program must contain the following features:
+
+// Write a new entry - Show the user a random prompt (from a list that you create), and save their response, the prompt, and the date as an Entry.
+// Display the journal - Iterate through all entries in the journal and display them to the screen.
+// Save the journal to a file - Prompt the user for a filename and then save the current journal (the complete list of entries) to that file location.
+// Load the journal from a file - Prompt the user for a filename and then load the journal (a complete list of entries) from that file. This should replace any entries currently stored the journal.
+// Provide a menu that allows the user choose these options
+// Your list of prompts must contain at least five different prompts. Make sure to add your own prompts to the list, but the following are examples to help get you started:
+// Who was the most interesting person I interacted with today?
+// What was the best part of my day?
+// How did I see the hand of the Lord in my life today?
+// What was the strongest emotion I felt today?
+// If I had one thing I could do over today, what would it be?
+// Your interface should generally follow the pattern shown in the video demo below.
+// Design Requirements
+// In addition, your program must:
+
+// Contain classes for the major components in the program.
+// Contain at least two classes in addition to the Program class.
+// Demonstrate the principle of abstraction by using member variables and methods appropriately.
+// Simplifications
+
+
