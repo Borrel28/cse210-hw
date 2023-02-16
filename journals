@@ -23,77 +23,77 @@ public class Person
     {
             Console.WriteLine($"{_givenName} {_familyName}");
     }
+}
 
-
-    public class models
-    {
+public class models
+{
 
 
 
     class Journal
-        {
+    {
 
     
         // Keeps track of the date, names and other information.
-            journal.Display();
-            journal ._FullDate = "";
-            journal ._givenName = "";
-            journal ._familyName = ""; 
-            journal ._Title = "";
-            journal ._EntryText = ""; 
-            journal ._Note = "";
-            journal ._Places = "";
+        journal.Display();
+        journal ._FullDate = "";
+        journal ._givenName = "";
+        journal ._familyName = ""; 
+        journal ._Title = "";
+        journal ._EntryText = ""; 
+        journal ._Note = "";
+        journal ._Places = "";
 
-            _EntryText.Display();
-            journal ._SubTitle = "";
-            journal ._ExperienceText = "";
-            journal ._Personnage = ""; 
-            journal ._Action = "";
-            journal ._Conclusion = ""; 
-            journal ._FullDate = "";
+        _EntryText.Display();
+        journal ._SubTitle = "";
+        journal ._ExperienceText = "";
+        journal ._Personnage = ""; 
+        journal ._Action = "";
+        journal ._Conclusion = ""; 
+        journal ._FullDate = "";
 
         // A method that displays the journal's information.
         DisplayJobDetails()
-            {
-                Console.WriteLine($"{_FullDate}, {_Places}, {_StartYear}, {_EndYear}");
-            }
-            {
-                Console.WriteLine($"{_givenName}, {_familyName}, {_JobTitle}");
-            }
-            {
-                Console.WriteLine($", {_EntryText}, {_Note}");
-            }
-            {
-            Console.WriteLine($" {_Subtitle}, {_ExperienceText}, {_personnage}, {_Action}, {_Conclusion}, {_FullDate}");
-            }
-
-        }
-
-
-    class models
         {
-            static void main(string[]args)
-            {
-                Console.write("What was the best part of my day? :")
-            }
-
-            {
-                Console.write("How did I see the hand of the Lord in my life today? :")
-            }
-            {
-                Console.write("What was the strongest emotion I felt today? :")
-            }
-            {
-                Console.write("If I had one thing I could do over today, what would it be? :")
-            }
-
-
+            Console.WriteLine($"{_FullDate}, {_Places}, {_StartYear}, {_EndYear}");
         }
-
+        {
+            Console.WriteLine($"{_givenName}, {_familyName}, {_JobTitle}");
+        }
+        {
+            Console.WriteLine($", {_EntryText}, {_Note}");
+        }
+        {
+            Console.WriteLine($" {_Subtitle}, {_ExperienceText}, {_personnage}, {_Action}, {_Conclusion}, {_FullDate}");
+        }
 
     }
 
+
+    class models
+    {
+            static void main(string[]args)
+        {
+            Console.write("What was the best part of my day? :")
+        }
+        {
+                Console.write("How did I see the hand of the Lord in my life today? :")
+        }            {
+            Console.write("What was the strongest emotion I felt today? :")
+        }
+        {
+            Console.write("If I had one thing I could do over today, what would it be? :")
+        }
+        {
+            Console.write("My experience  ... :")
+        }
+
+    }
+
+
 }
+
+
 
 
 // Vertical and horizontal whitespace (blank lines and indentation) is correct throughout the program.
